@@ -57,7 +57,7 @@ def list(songs)
      play(songs)
    elsif user_response == "help"
    help
-   elsif user_response == "exit"
+   else user_response == "exit"
    exit_jukebox
  end
  end
